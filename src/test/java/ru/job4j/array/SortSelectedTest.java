@@ -11,6 +11,7 @@ public class SortSelectedTest {
         int[] expected = new int[] {1, 2, 3, 4, 5};
         assertThat(result).containsExactly(expected);
     }
+
     @Test
     public void whenSortThreeDigits() {
         int[] data = new int[] {5, 4, 3};
@@ -18,6 +19,7 @@ public class SortSelectedTest {
         int[] expected = new int[] {3, 4, 5};
         assertThat(result).containsExactly(expected);
     }
+
     @Test
     public void whenSortFiveDigits() {
         int[] data = new int[] {4, 3, 1, 2, 5};
